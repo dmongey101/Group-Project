@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Bootstrap Sample</title>
+    <style>
+    body {
+        background-color: white;
+    }
+        .navbar {
+            background: linear-gradient(to right, blue, red, white);
+            padding-bottom: 30px;
+            padding-right: 100%;
+            position: fixed;
+            z-index: 2;
+       }
+
+        .navbar-brand {
+            font-family: 'Courgette', cursive;
+            font-size: 26px;
+            background: -webkit-linear-gradient(#eee, #333);
+            -webkit-background-clip: text;
+            /*color: lightgrey;*/
+            /*-webkit-text-fill-color: lightgrey;*/
+            margin-right: 100px;
+        }
+
+            nav > a {
+                color: red;
+                width: 18%;
+
+            }
+
+            nav>a:hover {
+                color: green;
+            }
+
+            .inline-block {
+                display: inline-block;
+            }
+
+            .topImages {
+                margin-left: 0;
+                margin-top: 63%;
+                width: 100%;
+                height: 300px;
+           }
+           
+           .travelCompanies {
+               border-radius: 40%;
+               border-color: 1.5px;
+               height: 40px;
+               width: 40px;
+           }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-md ">
+            <a class="navbar-brand" href="#"><i class="fa fa-globe-americas" aria-hidden="true"></i>Norfolk King Way Travel</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="" target="_blank">Travel Options<i class="fas fa-plane"></i><i class="fas fa-bus"></i><i class="fas fa-train"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" target="_blank">Explore the world today <i class="fas fa-map-pin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="container inline-block">
+            <div class="row">
+                <div class="col-4"><a href="#air"><img class="topImages" src="https://media.wired.com/photos/5a710d880c9d8e37e36cae03/191:100/pass/planetakeoff_1x1-98325767.jpg" alt="Picture of an airplane"></a></div>
+                <div class="col-4"><a href="#rail"><img class="topImages" src="https://img.theweek.in/content/dam/week/news/biztech/2018/february/train-20-railways.jpg" alt="Picture of a train"></a>
+                </div>
+                <div class="col-4"><a href="#bus"><img class="topImages" src="http://ultimateclassicrock.com/files/2018/01/1-Vinnie-Paul-Bus-eBay.png" alt="Picture of a bus"></a></div>
+            </div>
+        </div>
+    </section>
+
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 id="air">Travel by Air</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptatum blanditiis harum porro atque, esse, nesciunt nulla, aut accusantium debitis eius, unde! Impedit id veritatis natus error minus eveniet laboriosam sit quae perspiciatis.
+                        Quod eligendi asperiores accusantium nesciunt molestias et impedit, beatae, dolorum nemo vero est tenetur, ipsa alias laboriosam. Cupiditate iusto porro assumenda quas explicabo odio commodi architecto tenetur. Tempora nemo, illum
+                        perferendis totam sequi adipisci blanditiis sit rem voluptatem. Hic sapiente doloremque fugit commodi sit! Sed exercitationem, iste recusandae. Fugiat nisi amet nam aspernatur, laborum repellendus illum veritatis. Quibusdam quisquam
+                        dolore doloremque minus aliquam, harum nemo, magnam quas?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>Choose Airline:</h4>
+                    <img class="travelCompanies" src="https://c1.staticflickr.com/1/175/438464608_3bd884fe10_b.jpg" href="https://www.aerlingus.com/html/en-IE/home.html">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 id= "rail">Travel by Train</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis sunt officiis id aspernatur rem dolorem ad libero dolores harum, asperiores qui perferendis odio quae quas in expedita inventore minus quod! Magni laboriosam, nisi.
+                        Labore odio iure excepturi eveniet neque vero quasi consequuntur. Quo harum deleniti obcaecati nulla sit voluptates delectus nesciunt mollitia fuga voluptatibus, inventore ipsam consectetur eius iusto in voluptas, alias dolorem
+                        soluta quas cupiditate quae repudiandae. Possimus commodi perferendis magnam minima doloremque recusandae adipisci, nobis. Non repellendus nemo iste neque accusamus asperiores voluptate consequatur esse eligendi enim. Unde nostrum
+                        recusandae minima placeat veniam, deserunt ipsa dolorum praesentium eius.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>Choose Rail Company:</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 id="bus">Travel by Bus</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam unde ipsa cumque odio maxime suscipit commodi recusandae adipisci vitae quae quisquam iure sed totam consequatur in, sunt saepe voluptatum sequi illo voluptatibus impedit!
+                        Dolorem animi aperiam consequatur iste magnam deserunt ea, rerum fugit quam dolores aspernatur iure eius labore, officiis culpa delectus similique eveniet, distinctio ipsa! Quo quam sunt quasi unde reprehenderit dolores nam voluptate.
+                        Aspernatur ratione voluptatum asperiores eius aut nostrum ipsa culpa ab quidem, debitis dolorum molestiae, assumenda nobis modi suscipit voluptatem maxime nihil eligendi eum blanditiis hic natus, totam obcaecati quisquam. Corporis
+                        dolore sunt beatae, vel veritatis!</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4>Choose Bus Company:</h4>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-sm-2 col-sm-6">
+                <h1></h1>
+                <a class="h1" href=""></a>
+
+            </div>
+            <div class="col-sm-6 col-sm-6">
+                <h1></h1>
+                <a class="h1" href=""></a>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
